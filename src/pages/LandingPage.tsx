@@ -29,19 +29,18 @@ const LandingPage: React.FC = () => {
 	return (
 		<div className="lp-root">
 			<TopNav />
-			<Slideshow slides={projectSlides} autoAdvanceInterval={5000} />
-
 			<main className="lp-hero">
 				<h1 className="lp-title">Hi, I'm Jinyoung Kim</h1>
 				<p className="lp-lead">I build web apps and interfaces. I focus on clean, accessible, and performant experiences.</p>
-				<div className="lp-actions">
+			</main>
+			<Slideshow slides={projectSlides} autoAdvanceInterval={5000} />
+			<div className="lp-actions">
 					<a className="lp-btn lp-primary" href="#projects">See my work</a>
 					<a className="lp-btn" href="#contact">Contact me</a>
 				</div>
-			</main>
 
 			<section id="projects" className="lp-section">
-				<h2>Selected Projects</h2>
+				<h2>Projects</h2>
 				<div className="lp-grid">
 					<article className="lp-card">
 						<h3>Project One</h3>

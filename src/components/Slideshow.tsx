@@ -5,7 +5,6 @@ interface SlideItem {
   id: number
   image: string
   title: string
-  description: string
 }
 
 interface SlideshowProps {
@@ -19,19 +18,16 @@ const Slideshow: React.FC<SlideshowProps> = ({
       id: 1,
       image: 'https://via.placeholder.com/1200x400?text=Project+1',
       title: 'Project One',
-      description: 'Description of project one',
     },
     {
       id: 2,
       image: 'https://via.placeholder.com/1200x400?text=Project+2',
       title: 'Project Two',
-      description: 'Description of project two',
     },
     {
       id: 3,
       image: 'https://via.placeholder.com/1200x400?text=Project+3',
       title: 'Project Three',
-      description: 'Description of project three',
     },
   ],
   autoAdvanceInterval = 5000,
@@ -67,7 +63,6 @@ const Slideshow: React.FC<SlideshowProps> = ({
           <img src={currentSlide.image} alt={currentSlide.title} />
           <div className="slideshow-overlay">
             <h3>{currentSlide.title}</h3>
-            <p>{currentSlide.description}</p>
           </div>
         </div>
 

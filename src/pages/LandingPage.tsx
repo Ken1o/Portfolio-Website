@@ -1,16 +1,35 @@
 import '../styles/LandingPage.css'
 import TopNav from '../components/TopNav'
+import Slideshow from '../components/Slideshow'
 
 const LandingPage: React.FC = () => {
 	const year = new Date().getFullYear()
 
+	const projectSlides = [
+		{
+			id: 1,
+			image: 'https://via.placeholder.com/1200x400?text=Project+1',
+			title: 'Project One',
+			description: 'Description of your first project',
+		},
+		{
+			id: 2,
+			image: 'https://via.placeholder.com/1200x400?text=Project+2',
+			title: 'Project Two',
+			description: 'Description of your second project',
+		},
+		{
+			id: 3,
+			image: 'https://via.placeholder.com/1200x400?text=Project+3',
+			title: 'Project Three',
+			description: 'Description of your third project',
+		},
+	]
+
 	return (
 		<div className="lp-root">
 			<TopNav />
-
-            <div>
-                
-            </div>
+			<Slideshow slides={projectSlides} autoAdvanceInterval={5000} />
 
 			<main className="lp-hero">
 				<h1 className="lp-title">Hi, I'm Jinyoung Kim</h1>

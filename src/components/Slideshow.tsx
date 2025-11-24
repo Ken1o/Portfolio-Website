@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import './Slideshow.css'
+import '../styles/Slideshow.css'
 
 interface SlideItem {
   id: number

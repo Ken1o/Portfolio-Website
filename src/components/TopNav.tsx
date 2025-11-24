@@ -1,4 +1,4 @@
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 import '../styles/TopNav.css'
 
 interface NavItem {
@@ -19,9 +19,14 @@ const TopNav: React.FC<TopNavProps> = ({
   ],
 }) => {
   const navigate = useNavigate()
+  const location = useLocation()
 
   const handleNavClick = (path: string) => {
     navigate(path)
+  }
+
+  const isActive = (path: string) => {
+    return location.pathname === path
   }
 
   return (
@@ -31,7 +36,7 @@ const TopNav: React.FC<TopNavProps> = ({
         {navItems.map((item) => (
           <li key={item.path}>
             <button
-              className="topnav-btn"
+              className={`topnav-btn ${isActive(item.path) ? 'active' : ''}`}
               onClick={() => handleNavClick(item.path)}
             >
               {item.label}

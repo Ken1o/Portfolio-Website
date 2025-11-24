@@ -1,5 +1,5 @@
 import TopNav from '../components/TopNav'
-import '../styles/PageStyles.css'
+import '../styles/AboutPage.css'
 
 const AboutPage: React.FC = () => {
   const year = new Date().getFullYear()

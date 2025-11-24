@@ -34,10 +34,6 @@ const LandingPage: React.FC = () => {
 				<p className="lp-lead">I build web apps and interfaces. I focus on clean, accessible, and performant experiences.</p>
 			</main>
 			<Slideshow slides={projectSlides} autoAdvanceInterval={5000} />
-			<div className="lp-actions">
-					<a className="lp-btn lp-primary" href="#projects">See my work</a>
-					<a className="lp-btn" href="#contact">Contact me</a>
-				</div>
 
 			<section id="projects" className="lp-section">
 				<h2>Projects</h2>

@@ -8,7 +8,7 @@
 
 .page-main {
   flex: 1;
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
 }
 
 .page-container {
@@ -24,7 +24,6 @@
   color: #1a1a1a;
 }
 
-/* Hero Section with Photo and Intro */
 .aboutme-section {
   margin-bottom: 4rem;
 }
@@ -36,10 +35,16 @@
   align-items: center;
 }
 
-.intro-text h2 {
+.intro-text {
+  border-radius: 12px;
+  background-color: #edd2a4;
+}
+
+.intro-text h3 {
   font-size: 2rem;
   margin-top: 0;
   margin-bottom: 1rem;
+  margin-left: 10px;
   color: #1a1a1a;
 }
 
@@ -47,6 +52,7 @@
   font-size: 1rem;
   line-height: 1.8;
   color: #666666;
+  margin-left: 10px;
 }
 
 .personal-photo img {
@@ -111,7 +117,7 @@
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.1rem;
-  color: #7c3aed;
+  color: black;
 }
 
 .skill-card p {

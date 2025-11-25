@@ -9,19 +9,16 @@ const AboutPage: React.FC = () => {
       <TopNav />
       
       <main className="page-main">
-        <div className="page-container">
-          <h1>About Me</h1>
-          
-          {/* Hero Section with Photo and Intro */}
+        <div className="page-container">    
           <section className="aboutme-section">
             <div className="aboutme-content">
               <div className="personal-photo">
                 <img src="https://via.placeholder.com/300x400?text=Your+Photo" alt="Your photo" />
               </div>
               <div className="intro-text">
-                <h2>Who I Am</h2>
-                <p>
-
+                <h3>Who I Am</h3>
+                <p> {/* add introduction */}
+                  hello
                 </p>
               </div>
             </div>
@@ -32,14 +29,15 @@ const AboutPage: React.FC = () => {
             <div className="skills-grid">
               <div className="skill-card">
                 <h3>Frontend</h3>
+                {/* add frontsend skills */}
               </div>
               <div className="skill-card">
                 <h3>Backend</h3>
-
+                {/* add backend skills */}
               </div>
               <div className="skill-card">
                 <h3>Tools</h3>
-
+                {/* add tools skills */}
               </div>
             </div>
           </section>

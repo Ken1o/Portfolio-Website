@@ -39,23 +39,27 @@ const LandingPage: React.FC = () => {
 				<h2>Projects</h2>
 				<div className="lp-grid">
 					<article className="lp-card">
-						<h3>Project One</h3>
+						<h3>Generative AI Playground</h3>
 						<p>Short description and key tech used.</p>
 					</article>
 					<article className="lp-card">
-						<h3>Project Two</h3>
+						<h3>Stock/Crypto Trading Simulator</h3>
 						<p>Short description and key tech used.</p>
 					</article>
 					<article className="lp-card">
-						<h3>Project Three</h3>
+						<h3>Movie Recommendation System</h3>
 						<p>Short description and key tech used.</p>
 					</article>
 					<article className="lp-card">
-						<h3>Project Four</h3>
+						<h3>Podcast Web App</h3>
 						<p>Short description and key tech used.</p>
 					</article>
 					<article className="lp-card">
-						<h3>Project Five</h3>
+						<h3>Old Arcade Shooting Game</h3>
+						<p>Short description and key tech used.</p>
+					</article>
+					<article className="lp-card">
+						<h3>Gold Miner Game</h3>
 						<p>Short description and key tech used.</p>
 					</article>
 				</div>

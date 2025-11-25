@@ -1,8 +1,8 @@
 import './App.css'
 import LandingPage from './pages/LandingPage'
 import AboutPage from './pages/AboutPage'
+import ProjectsPage from './pages/ProjectsPage'
 //import ContactPage from './pages/ContactPage'
-//import ProjectPage from './pages/ProjectsPage'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" element={ <LandingPage /> } />
         <Route path="/about" element={ <AboutPage /> } />
-        {/* <Route path="/contact" element={ <ContactPage /> } />
-        <Route path="/projects" element={ <ProjectPage /> } /> */}
+        <Route path="/projects" element={ <ProjectsPage /> } />
+        {/* <Route path="/contact" element={ <ContactPage /> } /> */}
       </Routes>
     </Router>
   )

@@ -46,6 +46,18 @@ const LandingPage: React.FC = () => {
 						<h3>Project Two</h3>
 						<p>Short description and key tech used.</p>
 					</article>
+					<article className="lp-card">
+						<h3>Project Three</h3>
+						<p>Short description and key tech used.</p>
+					</article>
+					<article className="lp-card">
+						<h3>Project Four</h3>
+						<p>Short description and key tech used.</p>
+					</article>
+					<article className="lp-card">
+						<h3>Project Five</h3>
+						<p>Short description and key tech used.</p>
+					</article>
 				</div>
 			</section>
 

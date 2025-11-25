@@ -53,18 +53,20 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(124, 58, 237, 0.7);
+  background: #646cff;
   color: white;
   border: none;
-  font-size: 2rem;
+  font-size: 20px;
   padding: 1rem 1.5rem;
   cursor: pointer;
   transition: background 0.3s;
   z-index: 10;
+  width: auto;
+  height: auto;
 }
 
 .slideshow-btn:hover {
-  background: rgba(124, 58, 237, 1);
+  background: #1621f3;
 }
 
 .slideshow-prev {
@@ -93,12 +95,13 @@
 }
 
 .indicator.active {
-  background: #7c3aed;
-  border-color: #7c3aed;
+  background: #1621f3;
+  border-color: #1621f3;
 }
 
 .indicator:hover {
-  border-color: #7c3aed;
+  border-color: #646cff;
+  background: #646cff;
 }
 
 @media (max-width: 768px) {

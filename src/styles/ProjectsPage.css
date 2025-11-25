@@ -102,7 +102,7 @@
 .tag {
   display: inline-block;
   background: rgba(124, 58, 237, 0.1);
-  color: #7c3aed;
+  color: #646cff;
   padding: 0.3rem 0.8rem;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -111,7 +111,7 @@
 
 .project-link {
   display: inline-block;
-  color: #7c3aed;
+  color: #646cff;
   text-decoration: none;
   font-weight: 600;
   margin-top: auto;
@@ -119,7 +119,7 @@
 }
 
 .project-link:hover {
-  color: #4f46e5;
+  color: #1621f3;
   transform: translateX(4px);
 }
 

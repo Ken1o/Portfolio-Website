@@ -51,12 +51,12 @@ const LandingPage: React.FC = () => {
 
 			<section id="about" className="lp-section">
 				<h2>About</h2>
-				<p>Brief bio: what you do, your background, and what you're interested in.</p>
+				<p>Brief bio: .</p>
 			</section>
 
 			<section id="contact" className="lp-section">
 				<h2>Contact</h2>
-				<p>Email: <a href="kjy.jin.0823@gmail.com">kjy.jin.0823@gmail.com</a></p>
+				<p>Email: kjy.jin.0823@gmail.com</p>
 			</section>
 
 			<footer className="lp-footer">© {year} Your Name</footer>

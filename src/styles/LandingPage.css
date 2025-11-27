@@ -99,9 +99,10 @@ body {
 
 .lp-footer {
   text-align: center;
-  padding: 1rem;
-  color: var(--muted);
+  padding: 2rem;
+  color: #999999;
   font-size: 0.9rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 @media (min-width: 768px) {

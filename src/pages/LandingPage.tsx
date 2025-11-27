@@ -122,7 +122,7 @@ const LandingPage: React.FC = () => {
 				<p>Email: kjy.jin.0823@gmail.com</p>
 			</section>
 
-			<footer className="lp-footer">© {year} Your Name</footer>
+			<footer className="lp-footer">© {year} Jinyoung Kim</footer>
 		</div>
 	)
 }

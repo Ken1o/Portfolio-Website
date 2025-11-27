@@ -19,7 +19,7 @@ const ProjectsPage: React.FC = () => {
       title: 'Generative AI Playground',
       description: '',
       image: 'https://via.placeholder.com/400x300?text=Project+1',
-      tags: [],
+      tags: ["Node.js", "React", "Python", "Docker", "PostgreSQL", "AWS Bedrock", "Caddy"],
       link: '#',
     },
     {
@@ -27,7 +27,7 @@ const ProjectsPage: React.FC = () => {
       title: 'Stock/Crypto Trading Simulator',
       description: '',
       image: 'https://via.placeholder.com/400x300?text=Project+2',
-      tags: [],
+      tags: ["Go", "React", "Redis", "Finnhub API", "Yahoo Finance API"],
       link: '#',
     },
     {
@@ -35,7 +35,7 @@ const ProjectsPage: React.FC = () => {
       title: 'Movie Recommendation System',
       description: '',
       image: 'https://via.placeholder.com/400x300?text=Project+3',
-      tags: [],
+      tags: ["Python", "Streamlit", "TMDB API"],
       link: '#',
     },
     {
@@ -43,7 +43,7 @@ const ProjectsPage: React.FC = () => {
       title: 'Podcast Web App',
       description: '',
       image: 'https://via.placeholder.com/400x300?text=Project+4',
-      tags: [],
+      tags: ["Python (Flask)", "HTML", "CSS", "SQLite"],
       link: '#',
     },
     {

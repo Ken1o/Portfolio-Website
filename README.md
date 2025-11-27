@@ -20,7 +20,7 @@ About Me & Contact sections
 
 Clean, modern UI
 
-🛠️ Running Locally
+Running Locally
 git clone SSH Code
 cd 
 npm install

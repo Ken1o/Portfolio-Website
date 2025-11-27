@@ -1,8 +1,8 @@
-🌐 Personal Portfolio Website
+Personal Portfolio Website
 
 This repository contains the source code for my personal developer portfolio — a responsive, modern site built to showcase my projects, skills, and experience.
 
-🚀 Tech Stack
+Tech Stack
 
 React (frontend)
 
@@ -10,7 +10,7 @@ Vite / Create React App (update based on your setup)
 
 Tailwind CSS / CSS Modules / Styled Components (update as needed)
 
-📦 Features
+Features
 
 Fully responsive design
 

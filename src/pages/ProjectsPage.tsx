@@ -49,7 +49,7 @@ const ProjectsPage: React.FC = () => {
     {
       id: 5,
       title: 'Old Arcade Shooting Game',
-      description: 'A brief description.',
+      description: '',
       image: 'https://via.placeholder.com/400x300?text=Project+5',
       tags: ["Python"],
       link: '#',
@@ -57,7 +57,7 @@ const ProjectsPage: React.FC = () => {
     {
       id: 6,
       title: 'Gold Miner Game',
-      description: 'A brief description.',
+      description: '',
       image: 'https://via.placeholder.com/400x300?text=Project+5',
       tags: ["Python"],
       link: '#',

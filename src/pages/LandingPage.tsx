@@ -2,6 +2,13 @@ import '../styles/LandingPage.css'
 import TopNav from '../components/TopNav'
 import Slideshow from '../components/Slideshow'
 
+interface LandingProject {
+	  id: number
+	  title: string
+	  description: string
+	  techstacks: string
+}
+
 const LandingPage: React.FC = () => {
 	const year = new Date().getFullYear()
 
@@ -44,6 +51,45 @@ const LandingPage: React.FC = () => {
 		},
 	]
 
+	const landingProjects: LandingProject[] = [
+		{
+			id: 1,
+			title: 'Generative AI Playground',
+			description: 'The GenAI Playground, a centralised platform where users can seamlessly compare outputs from vairous LLMs, adjust parameters, and integrate with multiple model providers.',
+			techstacks: 'Node.js, React, Python, Docker, Postgresql, AWS Bedrock, Caddy.',
+		},
+		{
+			id: 2,
+			title: 'Stock/Crypto Trading Simulator',
+			description: 'A live-data trading simulator that replicates stock and crypto markets, allowing users to execute trades, analyse performance, and refine trading strategies.',
+			techstacks: 'Go, React, Redis, Finnhub API, Yahoo Finance API.',
+		},
+		{
+			id: 3,
+			title: 'Movie Recommendation System',
+			description: 'A personalised movie recommendation engine that uses collaborative filtering and content-based analysis to generate accurate movie suggestions.',
+			techstacks: 'Python, Streamlit, TMDB Api',
+		},
+		{
+			id: 4,
+			title: 'Podcast Web App',
+			description: 'Short description and key tech used.',
+			techstacks: 'Python (Flask), HTML, CSS, SQLite',
+		},
+		{
+			id: 5,
+			title: 'Old Arcade Shooting Game',
+			description: 'Short description and key tech used.',
+			techstacks: 'Python',
+		},
+		{
+			id: 6,
+			title: 'Gold Miner Game',
+			description: 'Short description and key tech used.',
+			techstacks: 'Python',
+		},
+	]
+
 	return (
 		<div className="lp-root">
 			<TopNav />
@@ -56,48 +102,13 @@ const LandingPage: React.FC = () => {
 			<section id="projects" className="lp-section">
 				<h2>Projects</h2>
 				<div className="lp-grid">
-					<article className="lp-card">
-						<h3>Generative AI Playground</h3>
-						<p>
-							The GenAI Playground, a centralised platform where users can seamlessly compare outputs from vairous LLMs, adjust parameters, and integrate with multiple model providers.
-						</p>
-						<p>
-							Node.js, React, Python, Docker, Postgresql, AWS Bedrock, Caddy.
-						</p>
-					</article>
-					<article className="lp-card">
-						<h3>Stock/Crypto Trading Simulator</h3>
-						<p>
-							A live-data trading simulator that replicates stock and crypto markets, allowing users to execute trades, analyse performance, and refine trading strategies.
-						</p>
-						<p>
-							Go, React, Redis, Finnhub API, Yahoo Finance API.
-						</p>
-					</article>
-					<article className="lp-card">
-						<h3>Movie Recommendation System</h3>
-						<p>
-							A personalised movie recommendation engine that uses collaborative filtering and content-based analysis to generate accurate movie suggestions.
-						</p>
-						<p>
-							Python, Streamlit, TMDB Api
-						</p>
-					</article>
-					<article className="lp-card">
-						<h3>Podcast Web App</h3>
-						<p>Short description and key tech used.</p>
-						<p>
-							Python (Flask), HTML, CSS, SQLite
-						</p>
-					</article>
-					<article className="lp-card">
-						<h3>Old Arcade Shooting Game</h3>
-						<p>Short description and key tech used.</p>
-					</article>
-					<article className="lp-card">
-						<h3>Gold Miner Game</h3>
-						<p>Short description and key tech used.</p>
-					</article>
+					{landingProjects.map((project) => (
+						<article key={project.id} className="lp-card">
+							<h3>{project.title}</h3>
+							<p>{project.description}</p>
+							<p>{project.techstacks}</p>
+						</article>
+					))}
 				</div>
 			</section>
 

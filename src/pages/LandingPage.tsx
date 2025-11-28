@@ -1,6 +1,7 @@
 import '../styles/LandingPage.css'
 import TopNav from '../components/TopNav'
 import Slideshow from '../components/Slideshow'
+import GenAIImage from '../assets/GenAI.png'
 
 interface LandingProject {
 	  id: number
@@ -15,7 +16,7 @@ const LandingPage: React.FC = () => {
 	const projectSlides = [
 		{
 			id: 1,
-			image: 'https://via.placeholder.com/1200x400?text=Project+1',
+			image: GenAIImage,
 			title: 'Generative AI Playground',
 			description: 'Description of your first project',
 		},

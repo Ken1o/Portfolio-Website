@@ -1,5 +1,6 @@
 import TopNav from '../components/TopNav'
 import '../styles/ProjectsPage.css'
+import GenAIImage from '../assets/GenAI.png'
 
 interface Project {
   id: number
@@ -18,7 +19,7 @@ const ProjectsPage: React.FC = () => {
       id: 1,
       title: 'Generative AI Playground',
       description: '',
-      image: 'https://via.placeholder.com/400x300?text=Project+1',
+      image: GenAIImage,
       tags: ["Node.js", "React", "Python", "Docker", "PostgreSQL", "AWS Bedrock", "Caddy"],
       link: '#',
     },

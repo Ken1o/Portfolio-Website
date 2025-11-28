@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import '../styles/Slideshow.css'
+import GenAIImage from '../assets/GenAI.png'
 
 interface SlideItem {
   id: number
@@ -16,18 +17,8 @@ const Slideshow: React.FC<SlideshowProps> = ({
   slides = [
     {
       id: 1,
-      image: 'https://via.placeholder.com/1200x400?text=Project+1',
+      image: GenAIImage,
       title: 'Project One',
-    },
-    {
-      id: 2,
-      image: 'https://via.placeholder.com/1200x400?text=Project+2',
-      title: 'Project Two',
-    },
-    {
-      id: 3,
-      image: 'https://via.placeholder.com/1200x400?text=Project+3',
-      title: 'Project Three',
     },
   ],
   autoAdvanceInterval = 5000,

@@ -18,15 +18,17 @@
 .slideshow-slide {
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 600px;
   overflow: hidden;
 }
 
 .slideshow-slide img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
   display: block;
+  background: rgba(0, 0, 0, 0.05);
 }
 
 .slideshow-overlay {

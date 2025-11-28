@@ -1,6 +1,9 @@
 import TopNav from '../components/TopNav'
 import '../styles/ProjectsPage.css'
 import GenAIImage from '../assets/GenAI.png'
+import GoldMiner from '../assets/GoldMiner.png'
+import Movie from '../assets/Movie.png'
+import Stock from '../assets/Stock.png'
 
 interface Project {
   id: number
@@ -27,7 +30,7 @@ const ProjectsPage: React.FC = () => {
       id: 2,
       title: 'Stock/Crypto Trading Simulator',
       description: '',
-      image: 'https://via.placeholder.com/400x300?text=Project+2',
+      image: Stock,
       tags: ["Go", "React", "Redis", "Finnhub API", "Yahoo Finance API"],
       link: '#',
     },
@@ -35,7 +38,7 @@ const ProjectsPage: React.FC = () => {
       id: 3,
       title: 'Movie Recommendation System',
       description: '',
-      image: 'https://via.placeholder.com/400x300?text=Project+3',
+      image: Movie,
       tags: ["Python", "Streamlit", "TMDB API"],
       link: '#',
     },
@@ -59,7 +62,7 @@ const ProjectsPage: React.FC = () => {
       id: 6,
       title: 'Gold Miner Game',
       description: '',
-      image: 'https://via.placeholder.com/400x300?text=Project+5',
+      image: GoldMiner,
       tags: ["Python"],
       link: '#',
     },

@@ -2,6 +2,9 @@ import '../styles/LandingPage.css'
 import TopNav from '../components/TopNav'
 import Slideshow from '../components/Slideshow'
 import GenAIImage from '../assets/GenAI.png'
+import GoldMiner from '../assets/GoldMiner.png'
+import Movie from '../assets/Movie.png'
+import Stock from '../assets/Stock.png'
 
 interface LandingProject {
 	  id: number
@@ -22,13 +25,13 @@ const LandingPage: React.FC = () => {
 		},
 		{
 			id: 2,
-			image: 'https://via.placeholder.com/1200x400?text=Project+2',
+			image: Stock,
 			title: 'Stock/Crypto Trading Simulator',
 			description: 'Description of your second project',
 		},
 		{
 			id: 3,
-			image: 'https://via.placeholder.com/1200x400?text=Project+3',
+			image: Movie,
 			title: 'Movie Recommendation System',
 			description: 'Description of your third project',
 		},
@@ -46,7 +49,7 @@ const LandingPage: React.FC = () => {
 		},
 		{
 			id: 6,
-			image: 'https://via.placeholder.com/1200x400?text=Project+3',
+			image: GoldMiner,
 			title: 'Gold Miner Game',
 			description: 'Description of your third project',
 		},

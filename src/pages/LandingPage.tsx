@@ -85,13 +85,13 @@ const LandingPage: React.FC = () => {
 		{
 			id: 5,
 			title: 'Memory Game',
-			description: 'Short description and key tech used.',
+			description: 'A Python memory game where players must recall and input a sequence of numbers shown briefly on screen. Each round increases in length and difficulty, challenging the player’s short-term memory and focus.',
 			techstacks: 'Python',
 		},
 		{
 			id: 6,
 			title: 'Gold Miner Game',
-			description: 'Short description and key tech used.',
+			description: 'A Python-based Gold Miner game where players control a claw to grab gold, rocks, and diamonds. Each level has a time limit and money goal, increasing difficulty as the player progresses.',
 			techstacks: 'Python',
 		},
 	]

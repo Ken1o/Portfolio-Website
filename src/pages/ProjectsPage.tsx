@@ -4,6 +4,8 @@ import GenAIImage from '../assets/GenAI.png'
 import GoldMiner from '../assets/GoldMiner.png'
 import Movie from '../assets/Movie.png'
 import Stock from '../assets/Stock.png'
+import Podcast from '../assets/Podcast.png'
+import Memory from '../assets/Memory.png'
 
 interface Project {
   id: number
@@ -46,15 +48,15 @@ const ProjectsPage: React.FC = () => {
       id: 4,
       title: 'Podcast Web App',
       description: '',
-      image: 'https://via.placeholder.com/400x300?text=Project+4',
+      image: Podcast,
       tags: ["Python (Flask)", "HTML", "CSS", "SQLite"],
       link: '#',
     },
     {
       id: 5,
-      title: 'Old Arcade Shooting Game',
+      title: 'Memory Game',
       description: '',
-      image: 'https://via.placeholder.com/400x300?text=Project+5',
+      image: Memory,
       tags: ["Python"],
       link: '#',
     },

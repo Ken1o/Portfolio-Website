@@ -5,6 +5,8 @@ import GenAIImage from '../assets/GenAI.png'
 import GoldMiner from '../assets/GoldMiner.png'
 import Movie from '../assets/Movie.png'
 import Stock from '../assets/Stock.png'
+import Podcast from '../assets/Podcast.png'
+import Memory from '../assets/Memory.png'
 
 interface LandingProject {
 	  id: number
@@ -37,14 +39,14 @@ const LandingPage: React.FC = () => {
 		},
 		{
 			id: 4,
-			image: 'https://via.placeholder.com/1200x400?text=Project+3',
+			image: Podcast,
 			title: 'Podcast Web App',
 			description: 'Description of your third project',
 		},
 		{
 			id: 5,
-			image: 'https://via.placeholder.com/1200x400?text=Project+3',
-			title: 'Old Arcade Shooting Game',
+			image: Memory,
+			title: 'Memory Game',
 			description: 'Description of your third project',
 		},
 		{
@@ -82,7 +84,7 @@ const LandingPage: React.FC = () => {
 		},
 		{
 			id: 5,
-			title: 'Old Arcade Shooting Game',
+			title: 'Memory Game',
 			description: 'Short description and key tech used.',
 			techstacks: 'Python',
 		},

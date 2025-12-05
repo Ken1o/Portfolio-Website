@@ -28,16 +28,36 @@ const AboutPage: React.FC = () => {
             <h2>My Skills</h2>
             <div className="skills-grid">
               <div className="skill-card">
-                <h3>Frontend</h3>
-                {/* add frontsend skills */}
+                <h3>💻 Frontend</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">React</span>
+                  <span className="skill-tag">TypeScript</span>
+                  <span className="skill-tag">CSS</span>
+                  <span className="skill-tag">HTML</span>
+                  <span className="skill-tag">JavaScript</span>
+                  <span className="skill-tag">Vite</span>
+                </div>
               </div>
               <div className="skill-card">
-                <h3>Backend</h3>
-                {/* add backend skills */}
+                <h3>⚙️ Backend</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">Node.js</span>
+                  <span className="skill-tag">Python</span>
+                  <span className="skill-tag">Go</span>
+                  <span className="skill-tag">PostgreSQL</span>
+                  <span className="skill-tag">Docker</span>
+                  <span className="skill-tag">REST APIs</span>
+                </div>
               </div>
               <div className="skill-card">
-                <h3>Tools</h3>
-                {/* add tools skills */}
+                <h3>🛠️ Tools & More</h3>
+                <div className="skill-tags">
+                  <span className="skill-tag">Git</span>
+                  <span className="skill-tag">AWS</span>
+                  <span className="skill-tag">Figma</span>
+                  <span className="skill-tag">VS Code</span>
+                  <span className="skill-tag">Redis</span>
+                </div>
               </div>
             </div>
           </section>

@@ -6,6 +6,7 @@ import Movie from '../assets/Movie.png'
 import Stock from '../assets/Stock.png'
 import Podcast from '../assets/Podcast.png'
 import Memory from '../assets/Memory.png'
+import { useNavigate } from 'react-router-dom'
 
 interface Project {
   id: number
@@ -18,6 +19,13 @@ interface Project {
 
 const ProjectsPage: React.FC = () => {
   const year = new Date().getFullYear()
+  const navigate = useNavigate()
+
+  const handleProjectClick = (link?: string) => {
+    if (link && link !== '#') {
+      navigate(link)
+    }
+  }
 
   const projects: Project[] = [
     {
@@ -26,7 +34,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: GenAIImage,
       tags: ["Node.js", "React", "Python", "Docker", "PostgreSQL", "AWS Bedrock", "Caddy"],
-      link: '#',
+      link: '/generative-ai-playground',
     },
     {
       id: 2,
@@ -83,7 +91,12 @@ const ProjectsPage: React.FC = () => {
 
           <div className="projects-grid">
             {projects.map((project) => (
-              <div key={project.id} className="project-card">
+              <div
+                key={project.id}
+                className="project-card"
+                onClick={() => handleProjectClick(project.link)}
+                style={{ cursor: project.link && project.link !== '#' ? 'pointer' : 'default' }}
+              >
                 <div className="project-image">
                   <img src={project.image} alt={project.title} />
                 </div>

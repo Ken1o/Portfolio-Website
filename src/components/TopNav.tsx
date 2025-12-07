@@ -31,7 +31,7 @@ const TopNav: React.FC<TopNavProps> = ({
 
   return (
     <nav className="topnav">
-      <div className="topnav-brand">Portfolio</div>
+      <button className="topnav-brand" onClick={() => navigate('/')}>Portfolio</button>
       <ul className="topnav-menu">
         {navItems.map((item) => (
           <li key={item.path}>

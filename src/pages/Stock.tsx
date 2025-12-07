@@ -31,7 +31,36 @@ const StockPage: React.FC = () => {
                 <span className="year">2025</span>
               </div>
             </div>
-          </div>  
+          </div>
+          <section className="Stock-section">
+            <h2>Introduction</h2>
+            <p> </p>
+          </section>
+          <section className="Stock-section">
+            <h2>Tech Stack</h2>
+            <div className="tech-stack">
+              <div className="tech-category">
+                <h3>Backend</h3>
+                <div className="tech-tags">
+                  <span className="tech-tag">Go</span>
+                  <span className="tech-tag">Redis</span>
+                </div>
+              </div>
+                <div className="tech-category">
+                    <h3>Frontend</h3>
+                    <div className="tech-tags">
+                      <span className="tech-tag">React</span>
+                    </div>
+                </div>
+                <div className="tech-category">
+                    <h3>APIs</h3>
+                    <div className="tech-tags">
+                      <span className="tech-tag">Finnhub API</span>
+                      <span className="tech-tag">Yahoo Finance API</span>
+                    </div>
+                </div>
+            </div>
+          </section>  
         </div>
       </main>
       <footer className="page-footer">© {year} Jinyoung Kim</footer>

@@ -33,10 +33,6 @@ const StockPage: React.FC = () => {
             </div>
           </div>
           <section className="Stock-section">
-            <h2>Introduction</h2>
-            <p> </p>
-          </section>
-          <section className="Stock-section">
             <h2>Tech Stack</h2>
             <div className="tech-stack">
               <div className="tech-category">
@@ -60,7 +56,26 @@ const StockPage: React.FC = () => {
                     </div>
                 </div>
             </div>
-          </section>  
+          </section> 
+          <section className="Stock-features">
+            <h2>Features</h2>
+            <div className="feature-item">
+              <div className="feature-image">
+                <img src={StockImage} alt="Buy/Sell Page" />
+              </div>
+              <div className="feature-description">
+                <h3>Buy & Sell Trading</h3>
+                <p>Execute trades with real-time market data. Buy and sell stocks and cryptocurrencies with simulated funds to practice trading strategies without financial risk.</p>
+              </div>
+              <div className="feature-description">
+                <h3>Portfolio Management</h3>
+                <p>Track your investments with a comprehensive portfolio dashboard. View your holdings, transaction history, and overall performance to make informed trading decisions.</p>
+              </div>
+              <div className="feature-image">
+                <img src={StockImage} alt="Portfolio Page" />
+              </div>
+            </div>
+          </section>
         </div>
       </main>
       <footer className="page-footer">© {year} Jinyoung Kim</footer>

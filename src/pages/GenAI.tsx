@@ -17,42 +17,37 @@ const GenAIPage: React.FC = () => {
             ← Back to Projects
           </button>
 
-          <div className="project-header">
-            <div className="project-hero-image">
+          <div className="GenAI-header">
+            <div className="GenAI-hero-image">
               <img src={GenAIImage} alt="Generative AI Playground" />
             </div>
-            <div className="project-header-content">
+            <div className="GenAI-header-content">
               <h1>Generative AI Playground</h1>
-              <p className="project-subtitle">
+              <p className="GenAI-subtitle">
                 A full-stack web application for experimenting with various AI models and APIs
               </p>
-              <div className="project-meta">
+              <div className="GenAI-meta">
                 <span className="status">Completed</span>
-                <span className="year">2024</span>
+                <span className="year">2025</span>
               </div>
             </div>
           </div>
 
-          <section className="project-section">
+          <section className="GenAI-section">
             <h2>Overview</h2>
             <p>
               
             </p>
           </section>
 
-          <section className="project-section">
+          <section className="GenAI-section">
             <h2>Features</h2>
             <ul className="features-list">
-              <li>Multi-model support for different AI providers</li>
-              <li>Real-time streaming responses</li>
-              <li>User authentication and project management</li>
-              <li>API request/response history</li>
-              <li>Customizable parameters for each model</li>
-              <li>Docker containerization for easy deployment</li>
+              <li></li>
             </ul>
           </section>
 
-          <section className="project-section">
+          <section className="GenAI-section">
             <h2>Tech Stack</h2>
             <div className="tech-stack">
               <div className="tech-category">
@@ -85,21 +80,21 @@ const GenAIPage: React.FC = () => {
             </div>
           </section>
 
-          <section className="project-section">
+          <section className="GenAI-section">
             <h2>Challenges & Solutions</h2>
             <p>
               
             </p>
           </section>
 
-          <section className="project-section">
+          <section className="GenAI-section">
             <h2>Learnings</h2>
             <p>
               
             </p>
           </section>
 
-          <section className="project-section cta-section">
+          <section className="GenAI-section cta-section">
             <h2>Want to see more?</h2>
             <p>Check out my other projects or get in touch to discuss this work further.</p>
             <div className="cta-buttons">

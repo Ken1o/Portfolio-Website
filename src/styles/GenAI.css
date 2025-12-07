@@ -32,11 +32,11 @@
   transform: translateX(-4px);
 }
 
-.project-header {
+.GenAI-header {
   margin-bottom: 3rem;
 }
 
-.project-hero-image {
+.GenAI-hero-image {
   width: 100%;
   max-height: 400px;
   overflow: hidden;
@@ -45,7 +45,7 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
 }
 
-.project-hero-image img {
+.GenAI-hero-image img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -53,20 +53,20 @@
   background: rgba(0, 0, 0, 0.05);
 }
 
-.project-header-content h1 {
+.GenAI-header-content h1 {
   font-size: clamp(2rem, 5vw, 3rem);
   margin: 0 0 1rem 0;
   color: #1a1a1a;
 }
 
-.project-subtitle {
+.GenAI-subtitle {
   font-size: 1.2rem;
   line-height: 1.6;
   color: #666666;
   margin-bottom: 1rem;
 }
 
-.project-meta {
+.GenAI-meta {
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
@@ -83,11 +83,11 @@
   font-weight: 500;
 }
 
-.project-section {
+.GenAI-section {
   margin-bottom: 3rem;
 }
 
-.project-section h2 {
+.GenAI-section h2 {
   font-size: 1.5rem;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -96,7 +96,7 @@
   padding-bottom: 0.5rem;
 }
 
-.project-section p {
+.GenAI-section p {
   font-size: 1rem;
   line-height: 1.8;
   color: #666666;
@@ -216,11 +216,11 @@
     padding: 2rem 1rem;
   }
 
-  .project-header-content h1 {
+  .GenAI-header-content h1 {
     margin-bottom: 0.8rem;
   }
 
-  .project-subtitle {
+  .GenAI-subtitle {
     font-size: 1rem;
   }
 

@@ -42,7 +42,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: Stock,
       tags: ["Go", "React", "Redis", "Finnhub API", "Yahoo Finance API"],
-      link: '#',
+      link: '/stock-crypto-simulator',
     },
     {
       id: 3,

@@ -64,7 +64,7 @@ const StockPage: React.FC = () => {
                 <img src={StockImage} alt="Security Page" />
               </div>
               <div className="feature-description">
-                <h3>security</h3>
+                <h3>Security</h3>
                 <p></p>
               </div>
               <div className="feature-description">

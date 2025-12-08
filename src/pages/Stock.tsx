@@ -61,19 +61,27 @@ const StockPage: React.FC = () => {
             <h2>Features</h2>
             <div className="feature-item">
               <div className="feature-image">
-                <img src={StockImage} alt="Buy/Sell Page" />
+                <img src={StockImage} alt="Security Page" />
+              </div>
+              <div className="feature-description">
+                <h3>security</h3>
+                <p></p>
               </div>
               <div className="feature-description">
                 <h3>Buy & Sell Trading</h3>
                 <p>Execute trades with real-time market data. Buy and sell stocks and cryptocurrencies with simulated funds to practice trading strategies without financial risk.</p>
               </div>
-              <div className="feature-description">
-                <h3>Portfolio Management</h3>
-                <p>Track your investments with a comprehensive portfolio dashboard. View your holdings, transaction history, and overall performance to make informed trading decisions.</p>
+              <div className="feature-image">
+                <img src={StockImage} alt="Buy/Sell Page" />
               </div>
               <div className="feature-image">
                 <img src={StockImage} alt="Portfolio Page" />
               </div>
+              <div className="feature-description">
+                <h3>Portfolio Management</h3>
+                <p>Track your investments with a comprehensive portfolio dashboard. View your holdings, transaction history, and overall performance to make informed trading decisions.</p>
+              </div>
+              
             </div>
           </section>
         </div>

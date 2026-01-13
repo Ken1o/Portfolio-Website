@@ -65,7 +65,7 @@ const ProjectsPage: React.FC = () => {
       title: 'Memory Game',
       description: '',
       image: Memory,
-      tags: ["Python"],
+      tags: ["Python", "Pygame"],
       link: '#',
     },
     {
@@ -73,7 +73,7 @@ const ProjectsPage: React.FC = () => {
       title: 'Gold Miner Game',
       description: '',
       image: GoldMiner,
-      tags: ["Python"],
+      tags: ["Python", "Pygame"],
       link: '#',
     },
   ]

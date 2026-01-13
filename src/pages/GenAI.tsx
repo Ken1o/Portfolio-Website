@@ -36,7 +36,13 @@ const GenAIPage: React.FC = () => {
           <section className="GenAI-section">
             <h2>Overview</h2>
             <p>
-              
+              Generative AI Playground is a web-based experimentation platform designed to help users explore, compare, and understand generative AI models within a single unified interface. The platform allows users to test multiple models from different providers side by side, adjust parameters such as temperature and token limits, and observe how these changes affect model outputs in real time—making it an effective tool for learning prompt engineering and model behaviour.
+            </p>
+            <p>
+              Built with a React and TypeScript frontend and a FastAPI backend, the system integrates AWS Bedrock for multi-model access, AWS Cognito for secure authentication, Stripe for usage-based wallet payments, and PostgreSQL for transaction tracking. A strong emphasis was placed on usability, security, and privacy, with features such as temporary chat histories, synchronized multi-model prompting, and transparent cost estimation.
+            </p>
+            <p>
+              Overall, the project demonstrates a scalable, production-oriented architecture and delivers a user-centric AI sandbox that demystifies generative AI, supports responsible usage, and enables informed model selection for developers, educators, and learners.
             </p>
           </section>
 
@@ -92,19 +98,6 @@ const GenAIPage: React.FC = () => {
             <p>
               
             </p>
-          </section>
-
-          <section className="GenAI-section cta-section">
-            <h2>Want to see more?</h2>
-            <p>Check out my other projects or get in touch to discuss this work further.</p>
-            <div className="cta-buttons">
-              <button className="btn primary" onClick={() => navigate('/projects')}>
-                View All Projects
-              </button>
-              <button className="btn" onClick={() => navigate('/about')}>
-                About Me
-              </button>
-            </div>
           </section>
         </div>
       </main>

@@ -40,9 +40,6 @@ const Slideshow: React.FC<SlideshowProps> = ({
   const goToNext = () => {
     setCurrentIndex((prev) => (prev + 1) % slides.length)
   }
-
-  const currentSlide = slides[currentIndex]
-
   return (
     <div className="slideshow">
       <div className="slideshow-container">
@@ -50,11 +47,19 @@ const Slideshow: React.FC<SlideshowProps> = ({
           ❮
         </button>
 
-        <div className="slideshow-slide">
-          <img src={currentSlide.image} alt={currentSlide.title} />
-          <div className="slideshow-overlay">
-            <h3>{currentSlide.title}</h3>
-          </div>
+        <div className="slides-wrapper">
+          {slides.map((slide, index) => (
+            <div
+              key={slide.id}
+              className={`slide ${index === currentIndex ? 'active' : ''}`}
+              aria-hidden={index === currentIndex ? 'false' : 'true'}
+            >
+              <img src={slide.image} alt={slide.title} />
+              <div className="slideshow-overlay">
+                <h3>{slide.title}</h3>
+              </div>
+            </div>
+          ))}
         </div>
 
         <button className="slideshow-btn slideshow-next" onClick={goToNext}>
@@ -68,6 +73,7 @@ const Slideshow: React.FC<SlideshowProps> = ({
             key={index}
             className={`indicator ${index === currentIndex ? 'active' : ''}`}
             onClick={() => setCurrentIndex(index)}
+            aria-label={`Go to slide ${index + 1}`}
           />
         ))}
       </div>

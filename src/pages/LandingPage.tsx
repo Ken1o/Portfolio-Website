@@ -7,6 +7,7 @@ import Movie from '../assets/Movie.png'
 import Stock from '../assets/Stock.png'
 import Podcast from '../assets/Podcast.png'
 import Memory from '../assets/Memory.png'
+import Portfolio from '../assets/Portfolio.png'
 
 interface LandingProject {
 	  id: number
@@ -23,37 +24,43 @@ const LandingPage: React.FC = () => {
 			id: 1,
 			image: GenAIImage,
 			title: 'Generative AI Playground',
-			description: 'Description of your first project',
+			description: 'Description',
 		},
 		{
 			id: 2,
 			image: Stock,
 			title: 'Stock/Crypto Trading Simulator',
-			description: 'Description of your second project',
+			description: 'Description',
 		},
 		{
 			id: 3,
-			image: Movie,
-			title: 'Movie Recommendation System',
-			description: 'Description of your third project',
+			image: Portfolio,
+			title: 'Portfolio Website',
+			description: 'Description'
 		},
 		{
 			id: 4,
-			image: Podcast,
-			title: 'Podcast Web App',
-			description: 'Description of your third project',
+			image: Movie,
+			title: 'Movie Recommendation System',
+			description: 'Description'
 		},
 		{
 			id: 5,
-			image: Memory,
-			title: 'Memory Game',
-			description: 'Description of your third project',
+			image: Podcast,
+			title: 'Podcast Web App',
+			description: 'Description',
 		},
 		{
 			id: 6,
+			image: Memory,
+			title: 'Memory Game',
+			description: 'Description',
+		},
+		{
+			id: 7,
 			image: GoldMiner,
 			title: 'Gold Miner Game',
-			description: 'Description of your third project',
+			description: 'Description',
 		},
 	]
 
@@ -72,24 +79,30 @@ const LandingPage: React.FC = () => {
 		},
 		{
 			id: 3,
+			title: 'Portfolio Website',
+			description: 'A Porfolio Website which showcases my personal porjects and group projects',
+			techstacks: 'React'
+		},
+		{
+			id: 4,
 			title: 'Movie Recommendation System',
 			description: 'A personalised movie recommendation engine that uses collaborative filtering and content-based analysis to generate accurate movie suggestions.',
 			techstacks: 'Python, Streamlit, TMDB Api',
 		},
 		{
-			id: 4,
+			id: 5,
 			title: 'Podcast Web App',
 			description: 'Short description and key tech used.',
 			techstacks: 'Python (Flask), HTML, CSS, SQLite',
 		},
 		{
-			id: 5,
+			id: 6,
 			title: 'Memory Game',
 			description: 'A Python memory game where players must recall and input a sequence of numbers shown briefly on screen. Each round increases in length and difficulty, challenging the player’s short-term memory and focus.',
 			techstacks: 'Python',
 		},
 		{
-			id: 6,
+			id: 7,
 			title: 'Gold Miner Game',
 			description: 'A Python-based Gold Miner game where players control a claw to grab gold, rocks, and diamonds. Each level has a time limit and money goal, increasing difficulty as the player progresses.',
 			techstacks: 'Python',

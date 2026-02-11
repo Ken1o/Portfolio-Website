@@ -37,7 +37,9 @@
   transition: all 0.2s;
   padding: 0;
   padding-bottom: 0.4rem;
-  border-bottom: 2px solid transparent;
+  border-bottom: none;
+  position: relative;
+  border-radius: 0;
 }
 
 .topnav-btn:hover {
@@ -46,7 +48,30 @@
 
 .topnav-btn.active {
   font-weight: 600;
-  border-bottom: 2px solid black;
+}
+
+.topnav-btn::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background: transparent;
+  transform-origin: left center;
+  transform: scaleX(0);
+  transition: transform 0.18s ease, background 0.18s ease;
+  border-radius: 0;
+}
+
+.topnav-btn.active::after {
+  background: black;
+  transform: scaleX(1);
+}
+
+.topnav-btn:hover::after {
+  background: #646cff;
+  transform: scaleX(1);
 }
 
 @media (max-width: 768px) {

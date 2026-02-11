@@ -1,6 +1,5 @@
 import TopNav from '../components/TopNav'
 import '../styles/GenAI.css'
-import GenAIImage from '../assets/GenAI.png'
 import { useNavigate } from 'react-router-dom'
 
 const GenAIPage: React.FC = () => {
@@ -18,9 +17,6 @@ const GenAIPage: React.FC = () => {
           </button>
 
           <div className="GenAI-header">
-            <div className="GenAI-hero-image">
-              <img src={GenAIImage} alt="Generative AI Playground" />
-            </div>
             <div className="GenAI-header-content">
               <h1>Generative AI Playground</h1>
               <p className="GenAI-subtitle">

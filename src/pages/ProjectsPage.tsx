@@ -33,7 +33,7 @@ const ProjectsPage: React.FC = () => {
       id: 1,
       title: 'Generative AI Playground',
       description: '',
-      image: GenAIImage,
+      image: '',
       tags: ["Node.js", "React", "Python", "Docker", "PostgreSQL", "AWS Bedrock", "Caddy"],
       link: '/generative-ai-playground',
     },
@@ -94,9 +94,6 @@ const ProjectsPage: React.FC = () => {
       <main className="page-main">
         <div className="page-container">
           <h1>My Projects</h1>
-          <p className="projects-intro">
-            {/* add brief introduction about my projects */}
-          </p>
 
           <div className="projects-grid">
             {projects.map((project) => (

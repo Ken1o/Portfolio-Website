@@ -5,6 +5,7 @@ import ProjectsPage from './pages/ProjectsPage'
 //import ContactPage from './pages/ContactPage'
 import GenAIPage from './pages/GenAI'
 import StockPage from './pages/Stock'
+import PortfolioPage from './pages/Portfolio'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         {/* <Route path="/contact" element={ <ContactPage /> } /> */}
         <Route path="/generative-ai-playground" element={ <GenAIPage /> } />
         <Route path="/stock-crypto-simulator" element={ <StockPage /> } />
+        <Route path="/portfolio-website" element={ <PortfolioPage /> } />
       </Routes>
     </Router>
   )

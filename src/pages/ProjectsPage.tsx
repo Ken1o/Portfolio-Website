@@ -7,6 +7,7 @@ import Stock from '../assets/Stock.png'
 import Podcast from '../assets/Podcast.png'
 import Memory from '../assets/Memory.png'
 import { useNavigate } from 'react-router-dom'
+import Portfolio from '../assets/Portfolio.png'
 
 interface Project {
   id: number
@@ -46,6 +47,14 @@ const ProjectsPage: React.FC = () => {
     },
     {
       id: 3,
+      title: 'Portfolio Website',
+      description: '',
+      image: Portfolio,
+      tags: ["React"],
+      link: '/portfolio-website',
+    },
+    {
+      id: 4,
       title: 'Movie Recommendation System',
       description: '',
       image: Movie,
@@ -53,7 +62,7 @@ const ProjectsPage: React.FC = () => {
       link: '#',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Podcast Web App',
       description: '',
       image: Podcast,
@@ -61,7 +70,7 @@ const ProjectsPage: React.FC = () => {
       link: '#',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Memory Game',
       description: '',
       image: Memory,
@@ -69,7 +78,7 @@ const ProjectsPage: React.FC = () => {
       link: '#',
     },
     {
-      id: 6,
+      id: 7,
       title: 'Gold Miner Game',
       description: '',
       image: GoldMiner,

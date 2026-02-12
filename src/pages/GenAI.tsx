@@ -45,7 +45,27 @@ const GenAIPage: React.FC = () => {
           <section className="GenAI-section">
             <h2>Features</h2>
             <ul className="features-list">
-              <li></li>
+              <li>
+                <strong>Live Compare</strong>: side-by-side outputs from multiple models with synchronized input for instant visual comparison.
+              </li>
+              <li>
+                <strong>Parameter Controls</strong>: interactive sliders and presets (temperature, max tokens) with instant preview.
+              </li>
+              <li>
+                <strong>Prompt Playground</strong>: edit prompts with live preview, variable injection, undo/redo, and inline examples.
+              </li>
+              <li>
+                <strong>Tutorial</strong>: an interactive, in-app walkthrough that highlights key interface elements and demonstrates step-by-step workflows (live compare, parameter tuning). Users can replay, skip, or jump to sections.
+              </li>
+              <li>
+                <strong>History</strong>: temporary session history stored only in the user's browser (sessionStorage). History stays private and it is not uploaded to any central server, and is automatically deleted when the user exits the site.
+              </li>
+              <li>
+                <strong>Examples Gallery</strong>: categorized demo prompts (chat, summarization, code, images) to jumpstart tests.
+              </li>
+              <li>
+                <strong>Live Cost Estimator</strong>: real-time cost and token usage estimate per request to help manage budget.
+              </li>
             </ul>
           </section>
 

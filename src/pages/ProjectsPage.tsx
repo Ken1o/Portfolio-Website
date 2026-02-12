@@ -1,6 +1,5 @@
 import TopNav from '../components/TopNav'
 import '../styles/ProjectsPage.css'
-import GenAIImage from '../assets/GenAI.png'
 import GoldMiner from '../assets/GoldMiner.png'
 import Movie from '../assets/Movie.png'
 import Stock from '../assets/Stock.png'
@@ -59,7 +58,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: Movie,
       tags: ["Python", "Streamlit", "TMDB API"],
-      link: '#',
+      link: '/movie-recommendation-system',
     },
     {
       id: 5,

@@ -24,39 +24,14 @@ const PortfolioPage: React.FC = () => {
             <div className="Portfolio-header-content">
               <h1>Portfolio Website</h1>
               <p className="Portfolio-subtitle">
-                A web application that simulates stock and cryptocurrency trading using real market data
+                A Web Page introducing my projects and skills, showcasing my work and experience in a visually appealing way.
               </p>
               <div className="Portfolio-meta">
                 <span className="status">OnGoing</span>
-                <span className="year">2025</span>
+                <span className="year">2026</span>
               </div>
             </div>
           </div>
-          <section className="Portfolio-section">
-            <h2>Tech Stack</h2>
-            <div className="tech-stack">
-              <div className="tech-category">
-                <h3>Backend</h3>
-                <div className="tech-tags">
-                  <span className="tech-tag">Go</span>
-                  <span className="tech-tag">Redis</span>
-                </div>
-              </div>
-                <div className="tech-category">
-                    <h3>Frontend</h3>
-                    <div className="tech-tags">
-                      <span className="tech-tag">React</span>
-                    </div>
-                </div>
-                <div className="tech-category">
-                    <h3>APIs</h3>
-                    <div className="tech-tags">
-                      <span className="tech-tag">Finnhub API</span>
-                      <span className="tech-tag">Yahoo Finance API</span>
-                    </div>
-                </div>
-            </div>
-          </section> 
           <section className="Portfolio-features">
             <h2>Features</h2>
             <div className="feature-item">

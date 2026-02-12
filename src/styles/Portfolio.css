@@ -54,6 +54,23 @@
   background: rgba(0, 0, 0, 0.05);
 }
 
+.Portfolio-meta {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.status,
+.year {
+  display: inline-block;
+  background: #3457a1;
+  color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 .feature-item {
     display: grid;
     grid-template-columns: 1fr 1fr;

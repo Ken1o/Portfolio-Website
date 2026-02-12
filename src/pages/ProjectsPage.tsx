@@ -7,6 +7,7 @@ import Podcast from '../assets/Podcast.png'
 import Memory from '../assets/Memory.png'
 import { useNavigate } from 'react-router-dom'
 import Portfolio from '../assets/Portfolio.png'
+import GenAI from '../assets/GenAI.png'
 
 interface Project {
   id: number
@@ -32,7 +33,7 @@ const ProjectsPage: React.FC = () => {
       id: 1,
       title: 'Generative AI Playground',
       description: '',
-      image: '',
+      image: GenAI,
       tags: ["Node.js", "React", "Python", "Docker", "PostgreSQL", "AWS Bedrock", "Caddy"],
       link: '/generative-ai-playground',
     },

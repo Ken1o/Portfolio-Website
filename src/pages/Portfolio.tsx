@@ -36,25 +36,32 @@ const PortfolioPage: React.FC = () => {
             <h2>Features</h2>
             <div className="feature-item">
               <div className="feature-image">
-                <img src={PortfolioImage} alt="Security Page" />
+                <img src={PortfolioImage} alt="Landing Page" />
               </div>
               <div className="feature-description">
-                <h3>Security</h3>
-                <p></p>
+                <h3>Landing Page</h3>
+                <p>Introduces the website and provides a quick overview of the projects and skills showcased.</p>
               </div>
               <div className="feature-description">
-                <h3>Buy & Sell Trading</h3>
-                <p>Execute trades with real-time market data. Buy and sell stocks and cryptocurrencies with simulated funds to practice trading strategies without financial risk.</p>
+                <h3>Projects Page</h3>
+                <p>View all my projects in one place. Each project is described with its technologies, features, and links to live demos or source code.</p>
               </div>
               <div className="feature-image">
-                <img src={PortfolioImage} alt="Buy/Sell Page" />
+                <img src={PortfolioImage} alt="Projects Page" />
               </div>
               <div className="feature-image">
-                <img src={PortfolioImage} alt="Portfolio Page" />
+                <img src={PortfolioImage} alt="About Page" />
               </div>
               <div className="feature-description">
-                <h3>Portfolio Management</h3>
-                <p>Track your investments with a comprehensive portfolio dashboard. View your holdings, transaction history, and overall performance to make informed trading decisions.</p>
+                <h3>About Page</h3>
+                <p>Learn more about me and my background. Discover my journey, skills, and what drives me to create meaningful projects.</p>
+              </div>
+              <div className="feature-description">
+                <h3>Contact Page</h3>
+                <p>Get in touch with me. Whether you have a question, want to collaborate, or just want to say hi, feel free to reach out!</p>
+              </div>
+              <div className="feature-image">
+                <img src={PortfolioImage} alt="Contact Page" />
               </div>
               
             </div>

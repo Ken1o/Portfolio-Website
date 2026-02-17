@@ -79,27 +79,18 @@ const MoviePage: React.FC = () => {
                 <h3>Backend</h3>
                 <div className="tech-tags">
                   <span className="tech-tag">Python</span>
-                  <span className="tech-tag">PostgreSQL</span>
-                  <span className="tech-tag">Docker</span>
-                  <span className="tech-tag">AWS Bedrock</span>
-                  <span className="tech-tag">Caddy</span>
                 </div>
               </div>
               <div className="tech-category">
                 <h3>Frontend</h3>
                 <div className="tech-tags">
-                  <span className="tech-tag">React</span>
-                  <span className="tech-tag">TypeScript</span>
-                  <span className="tech-tag">CSS</span>
-                  <span className="tech-tag">Node.js</span>
+                  <span className="tech-tag">Streamlit</span>
                 </div>
               </div>
               <div className="tech-category">
                 <h3>Infrastructure</h3>
                 <div className="tech-tags">
-                  <span className="tech-tag">Docker</span>
-                  <span className="tech-tag">AWS Bedrock</span>
-                  <span className="tech-tag">Caddy</span>
+                  <span className="tech-tag">TMDB API</span>
                 </div>
               </div>
             </div>

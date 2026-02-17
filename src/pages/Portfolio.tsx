@@ -2,6 +2,7 @@ import TopNav from '../components/TopNav'
 import '../styles/Portfolio.css'
 import { useNavigate } from 'react-router-dom';
 import PortfolioImage from '../assets/Portfolio.png';
+import PortfolioProject from '../assets/PortfolioProject.png';
 
 const PortfolioPage: React.FC = () => {
   const year = new Date().getFullYear();
@@ -47,7 +48,7 @@ const PortfolioPage: React.FC = () => {
                 <p>View all my projects in one place. Each project is described with its technologies, features, and links to live demos or source code.</p>
               </div>
               <div className="feature-image">
-                <img src={PortfolioImage} alt="Projects Page" />
+                <img src={PortfolioProject} alt="Projects Page" />
               </div>
               <div className="feature-image">
                 <img src={PortfolioImage} alt="About Page" />

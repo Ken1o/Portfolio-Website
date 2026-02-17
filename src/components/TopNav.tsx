@@ -15,7 +15,6 @@ const TopNav: React.FC<TopNavProps> = ({
     { label: 'Home', path: '/' },
     { label: 'Projects', path: '/projects' },
     { label: 'About', path: '/about' },
-    { label: 'Contact', path: '/contact' },
   ],
 }) => {
   const navigate = useNavigate()

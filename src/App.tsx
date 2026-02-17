@@ -16,11 +16,13 @@ function App() {
         <Route path="/" element={ <LandingPage /> } />
         <Route path="/about" element={ <AboutPage /> } />
         <Route path="/projects" element={ <ProjectsPage /> } />
-        {/* <Route path="/contact" element={ <ContactPage /> } /> */}
         <Route path="/generative-ai-playground" element={ <GenAIPage /> } />
         <Route path="/stock-crypto-simulator" element={ <StockPage /> } />
         <Route path="/portfolio-website" element={ <PortfolioPage /> } />
         <Route path="/movie-recommendation-system" element={ <MoviePage /> } />
+        {/* <Route path="/PodcastApp" element={ <PodcastPage /> } /> */}
+        {/* <Route path="/GoldMiner" element={ <GoldMinerPage /> } /> */}
+        {/* <Route path="/MemoryGame" element={ <MemoryGamePage /> } /> */}
       </Routes>
     </Router>
   )

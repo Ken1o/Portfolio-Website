@@ -13,7 +13,6 @@ interface LandingProject {
 	  id: number
 	  title: string
 	  description: string
-	  techstacks: string
 }
 
 const LandingPage: React.FC = () => {
@@ -69,43 +68,37 @@ const LandingPage: React.FC = () => {
 			id: 1,
 			title: 'Generative AI Playground',
 			description: 'The GenAI Playground, a centralised platform where users can seamlessly compare outputs from vairous LLMs, adjust parameters, and integrate with multiple model providers.',
-			techstacks: 'Node.js, React, Python, Docker, Postgresql, AWS Bedrock, Caddy.',
+			
 		},
 		{
 			id: 2,
 			title: 'Stock/Crypto Trading Simulator',
 			description: 'A live-data trading simulator that replicates stock and crypto markets, allowing users to execute trades, analyse performance, and refine trading strategies.',
-			techstacks: 'Go, React, Redis, Finnhub API, Yahoo Finance API.',
 		},
 		{
 			id: 3,
 			title: 'Portfolio Website',
-			description: 'A Porfolio Website which showcases my personal porjects and group projects',
-			techstacks: 'React'
+			description: 'A Portfolio Website which showcases my personal projects and group projects',
 		},
 		{
 			id: 4,
 			title: 'Movie Recommendation System',
 			description: 'A personalised movie recommendation engine that uses collaborative filtering and content-based analysis to generate accurate movie suggestions.',
-			techstacks: 'Python, Streamlit, TMDB Api',
 		},
 		{
 			id: 5,
 			title: 'Podcast Web App',
 			description: 'Short description and key tech used.',
-			techstacks: 'Python (Flask), HTML, CSS, SQLite',
 		},
 		{
 			id: 6,
 			title: 'Memory Game',
 			description: 'A Python memory game where players must recall and input a sequence of numbers shown briefly on screen. Each round increases in length and difficulty, challenging the player’s short-term memory and focus.',
-			techstacks: 'Python',
 		},
 		{
 			id: 7,
 			title: 'Gold Miner Game',
 			description: 'A Python-based Gold Miner game where players control a claw to grab gold, rocks, and diamonds. Each level has a time limit and money goal, increasing difficulty as the player progresses.',
-			techstacks: 'Python',
 		},
 	]
 
@@ -125,7 +118,6 @@ const LandingPage: React.FC = () => {
 						<article key={project.id} className="lp-card">
 							<h3>{project.title}</h3>
 							<p>{project.description}</p>
-							<p>{project.techstacks}</p>
 						</article>
 					))}
 				</div>

@@ -83,7 +83,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: GoldMiner,
       tags: ["Python", "Pygame"],
-      link: '#',
+      link: '/GoldMiner',
     },
   ]
 

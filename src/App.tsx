@@ -8,6 +8,7 @@ import PortfolioPage from './pages/Portfolio'
 import MoviePage from './pages/Movie'
 import MemoryGamePage from './pages/MemoryGame'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import GoldMinerPage from './pages/GoldMiner'
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path="/portfolio-website" element={ <PortfolioPage /> } />
         <Route path="/movie-recommendation-system" element={ <MoviePage /> } />
         {/* <Route path="/PodcastApp" element={ <PodcastPage /> } /> */}
-        {/* <Route path="/GoldMiner" element={ <GoldMinerPage /> } /> */}
+        <Route path="/GoldMiner" element={ <GoldMinerPage /> } />
         <Route path="/MemoryGame" element={ <MemoryGamePage /> } />
       </Routes>
     </Router>

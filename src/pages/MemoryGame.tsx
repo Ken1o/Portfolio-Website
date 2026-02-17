@@ -114,12 +114,8 @@ const MemoryGamePage: React.FC = () => {
             <h2>Game Statistics</h2>
             <div className="stats-grid">
               <div className="stat-item">
-                <div className="stat-value">16</div>
+                <div className="stat-value">0</div>
                 <div className="stat-label">Cards</div>
-              </div>
-              <div className="stat-item">
-                <div className="stat-value">8</div>
-                <div className="stat-label">Pairs</div>
               </div>
               <div className="stat-item">
                 <div className="stat-value">1 - 20</div>

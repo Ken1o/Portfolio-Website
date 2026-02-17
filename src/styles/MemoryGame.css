@@ -1,0 +1,289 @@
+.MemoryGame-root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f5f5;
+  color: #1a1a1a;
+}
+
+.MemoryGame-main {
+  flex: 1;
+  padding: 3rem 2rem;
+}
+
+.MemoryGame-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #3457a1;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+  transition: all 0.2s;
+  font-weight: 500;
+}
+
+.back-btn:hover {
+  transform: translateX(-4px);
+  color: #35508b;
+}
+
+/* Hero Video Section */
+.MemoryGame-hero {
+  margin-bottom: 3rem;
+}
+
+.MemoryGame-video-container {
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.MemoryGame-video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Overview Section */
+.MemoryGame-overview {
+  margin-bottom: 3rem;
+}
+
+.MemoryGame-overview h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin: 0 0 1rem 0;
+  color: #1a1a1a;
+}
+
+.MemoryGame-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666666;
+  margin-bottom: 1rem;
+}
+
+.MemoryGame-meta {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.MemoryGame-meta .status,
+.MemoryGame-meta .year {
+  display: inline-block;
+  background: #3457a1;
+  color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Section Styling */
+.MemoryGame-section {
+  margin-bottom: 3rem;
+}
+
+.MemoryGame-section h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  border-bottom: 2px solid #3457a1;
+  padding-bottom: 0.5rem;
+}
+
+.section-header {
+  margin-bottom: 1.5rem;
+}
+
+.section-header h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  color: #1a1a1a;
+  border-bottom: 2px solid #3457a1;
+  padding-bottom: 0.5rem;
+}
+
+/* Steps Grid */
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.step-card {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  border-left: 4px solid #3457a1;
+}
+
+.step-number {
+  width: 50px;
+  height: 50px;
+  background: #3457a1;
+  color: #f5f5f5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto 1rem;
+}
+
+.step-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.step-card p {
+  font-size: 0.95rem;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* Features Grid */
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.feature-card {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border-left: 4px solid #3457a1;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+  display: inline-block;
+}
+
+.feature-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #1a1a1a;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #666666;
+  line-height: 1.6;
+}
+
+/* Tech Stack */
+.tech-stack {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.tech-category h3 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  color: #1a1a1a;
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  display: inline-block;
+  background: #3457a1;
+  color: #f5f5f5;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Stats Section */
+.MemoryGame-stats {
+  margin-bottom: 3rem;
+}
+
+.MemoryGame-stats h2 {
+  font-size: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #1a1a1a;
+  border-bottom: 2px solid #3457a1;
+  padding-bottom: 0.5rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 1.5rem;
+  background: #f5f5f5;
+  border-radius: 8px;
+  border-left: 4px solid #3457a1;
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3457a1;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 0.95rem;
+  color: #666666;
+  font-weight: 500;
+}
+
+/* Page Footer */
+.page-footer {
+  text-align: center;
+  padding: 2rem;
+  color: #999999;
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .MemoryGame-main {
+    padding: 2rem 1rem;
+  }
+
+  .MemoryGame-overview h1 {
+    margin-bottom: 0.8rem;
+  }
+
+  .MemoryGame-subtitle {
+    font-size: 1rem;
+  }
+
+  .tech-stack {
+    grid-template-columns: 1fr;
+  }
+}

@@ -75,7 +75,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: Memory,
       tags: ["Python", "Pygame"],
-      link: '#',
+      link: '/memorygame',
     },
     {
       id: 7,

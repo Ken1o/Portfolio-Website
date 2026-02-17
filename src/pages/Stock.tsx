@@ -1,6 +1,7 @@
 import '../styles/Stock.css';
 import TopNav from '../components/TopNav';
 import StockImage from '../assets/Stock.png';
+import StockVideo from '../assets/StockVideo.mp4';
 import { useNavigate } from 'react-router-dom';
 
 const StockPage: React.FC = () => {
@@ -19,7 +20,7 @@ const StockPage: React.FC = () => {
 
           <div className="Stock-header">
             <div className="Stock-hero-image">
-                <img src={StockImage} alt="Stock/Crypto Trading Simulator" />
+                <video src={StockVideo} controls autoPlay muted loop width="100%"/>
             </div>
             <div className="Stock-header-content">
               <h1>Stock/Crypto Trading Simulator</h1>

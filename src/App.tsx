@@ -2,11 +2,11 @@ import './App.css'
 import LandingPage from './pages/LandingPage'
 import AboutPage from './pages/AboutPage'
 import ProjectsPage from './pages/ProjectsPage'
-//import ContactPage from './pages/ContactPage'
 import GenAIPage from './pages/GenAI'
 import StockPage from './pages/Stock'
 import PortfolioPage from './pages/Portfolio'
 import MoviePage from './pages/Movie'
+import MemoryGamePage from './pages/MemoryGame'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
         <Route path="/movie-recommendation-system" element={ <MoviePage /> } />
         {/* <Route path="/PodcastApp" element={ <PodcastPage /> } /> */}
         {/* <Route path="/GoldMiner" element={ <GoldMinerPage /> } /> */}
-        {/* <Route path="/MemoryGame" element={ <MemoryGamePage /> } /> */}
+        <Route path="/MemoryGame" element={ <MemoryGamePage /> } />
       </Routes>
     </Router>
   )

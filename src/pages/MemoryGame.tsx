@@ -1,4 +1,4 @@
-import '../styles/MemoryGame.css';
+import '../styles/Game.css';
 import TopNav from '../components/TopNav';
 import { useNavigate } from 'react-router-dom';
 //import MemoryGameVideo from '../assets/MemoryGame.mp4';
@@ -8,19 +8,19 @@ const MemoryGamePage: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="MemoryGame-root">
+    <div className="Game-root">
       <TopNav />
 
-      <main className="MemoryGame-main">
-        <div className="MemoryGame-container">
+      <main className="Game-main">
+        <div className="Game-container">
           <button className="back-btn" onClick={() => navigate('/projects')}>
             ← Back to Projects
           </button>
 
-          <div className="MemoryGame-hero">
-            <div className="MemoryGame-video-container">
+          <div className="Game-hero">
+            <div className="Game-video-container">
               <video
-                className="MemoryGame-video"
+                className="Game-video"
                 autoPlay
                 muted
                 loop
@@ -32,19 +32,19 @@ const MemoryGamePage: React.FC = () => {
             </div>
           </div>
 
-          <section className="MemoryGame-overview">
+          <section className="Game-overview">
             <h1>Memory Game</h1>
-            <p className="MemoryGame-subtitle">
+            <p className="Game-subtitle">
               Test your memory skills with this interactive card-matching game. 
               Flip cards to find matching pairs and challenge yourself to complete the game in record time!
             </p>
-            <div className="MemoryGame-meta">
+            <div className="Game-meta">
               <span className="status">Completed</span>
               <span className="year">2024</span>
             </div>
           </section>
 
-          <section className="MemoryGame-section">
+          <section className="Game-section">
             <div className="section-header">
               <h2>How to Play</h2>
             </div>
@@ -54,7 +54,7 @@ const MemoryGamePage: React.FC = () => {
                 <h3>Start Game</h3>
                 <p>Click the start button to begin. Cards will appear on the screen for few seconds.</p>
               </div>
-              <div className="step-card">
+              <div className="step-card-middle">
                 <div className="step-number">2</div>
                 <h3>Observe Pattern</h3>
                 <p>Watch as cards reveal in order from 1 to the maximum number for your level.</p>
@@ -67,7 +67,7 @@ const MemoryGamePage: React.FC = () => {
             </div>
           </section>
 
-          <section className="MemoryGame-section">
+          <section className="Game-section">
             <div className="section-header">
               <h2>Features</h2>
             </div>
@@ -77,7 +77,7 @@ const MemoryGamePage: React.FC = () => {
                 <h3>Score System</h3>
                 <p>Earn points based on speed and accuracy. Compete with friends!</p>
               </div>
-              <div className="feature-card">
+              <div className="feature-card-middle">
                 <div className="feature-icon">🏆</div>
                 <h3>Leaderboard</h3>
                 <p>View top scores and compete with other players online.</p>
@@ -90,7 +90,7 @@ const MemoryGamePage: React.FC = () => {
             </div>
           </section>
 
-          <section className="MemoryGame-section">
+          <section className="Game-section">
             <div className="section-header">
               <h2>Tech Stack</h2>
             </div>
@@ -110,14 +110,14 @@ const MemoryGamePage: React.FC = () => {
             </div>
           </section>
 
-          <section className="MemoryGame-stats">
+          <section className="Game-stats">
             <h2>Game Statistics</h2>
             <div className="stats-grid">
               <div className="stat-item">
                 <div className="stat-value">0</div>
                 <div className="stat-label">Cards</div>
               </div>
-              <div className="stat-item">
+              <div className="stat-item-middle">
                 <div className="stat-value">1 - 20</div>
                 <div className="stat-label">Difficulty Levels</div>
               </div>

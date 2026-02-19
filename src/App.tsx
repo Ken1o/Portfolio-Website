@@ -10,10 +10,12 @@ import MemoryGamePage from './pages/MemoryGame'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GoldMinerPage from './pages/GoldMiner'
 import PodcastPage from './pages/Podcast'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={ <LandingPage /> } />
         <Route path="/about" element={ <AboutPage /> } />

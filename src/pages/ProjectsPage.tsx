@@ -67,7 +67,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: Podcast,
       tags: ["Python (Flask)", "HTML", "CSS", "SQLite"],
-      link: '#',
+      link: '/podcast-app',
     },
     {
       id: 6,
@@ -75,7 +75,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: Memory,
       tags: ["Python", "Pygame"],
-      link: '/memorygame',
+      link: '/memory-game',
     },
     {
       id: 7,
@@ -83,7 +83,7 @@ const ProjectsPage: React.FC = () => {
       description: '',
       image: GoldMiner,
       tags: ["Python", "Pygame"],
-      link: '/GoldMiner',
+      link: '/goldminer-game',
     },
   ]
 

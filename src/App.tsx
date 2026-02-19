@@ -9,6 +9,7 @@ import MoviePage from './pages/Movie'
 import MemoryGamePage from './pages/MemoryGame'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import GoldMinerPage from './pages/GoldMiner'
+import PodcastPage from './pages/Podcast'
 
 function App() {
   return (
@@ -21,9 +22,9 @@ function App() {
         <Route path="/stock-crypto-simulator" element={ <StockPage /> } />
         <Route path="/portfolio-website" element={ <PortfolioPage /> } />
         <Route path="/movie-recommendation-system" element={ <MoviePage /> } />
-        {/* <Route path="/PodcastApp" element={ <PodcastPage /> } /> */}
-        <Route path="/GoldMiner" element={ <GoldMinerPage /> } />
-        <Route path="/MemoryGame" element={ <MemoryGamePage /> } />
+        <Route path="/podcast-app" element={ <PodcastPage /> } />
+        <Route path="/goldminer-game" element={ <GoldMinerPage /> } />
+        <Route path="/memory-game" element={ <MemoryGamePage /> } />
       </Routes>
     </Router>
   )

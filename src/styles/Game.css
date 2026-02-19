@@ -146,13 +146,17 @@
   margin: 0 auto 1rem;
 }
 
-.step-card h3 {
+.step-card 
+.step-card-middle
+h3 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
   color: #1a1a1a;
 }
 
-.step-card p {
+.step-card 
+.step-card-middle
+p {
   font-size: 0.95rem;
   color: #666666;
   line-height: 1.6;

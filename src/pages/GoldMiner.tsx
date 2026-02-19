@@ -84,7 +84,7 @@ const GoldMinerPage: React.FC = () => {
               <div className="feature-card">
                 <div className="feature-icon">🎯</div>
                 <h3>Difficulty</h3>
-                <p>The difficulty level increases with each game, challenging your memory skills progressively.</p>
+                <p>The difficulty level increases with each game, challenging your timing skills progressively.</p>
               </div>
             </div>
           </section>

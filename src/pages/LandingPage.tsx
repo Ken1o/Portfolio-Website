@@ -8,6 +8,9 @@ import Stock from '../assets/Stock.png'
 import Podcast from '../assets/Podcast.png'
 import Memory from '../assets/Memory.png'
 import Portfolio from '../assets/Portfolio.png'
+import LinkedinIcon from '../assets/linkedin.png'
+import GithubIcon from '../assets/github.png'
+import ResumeIcon from '../assets/resume.jpg'
 
 interface LandingProject {
 	  id: number
@@ -105,10 +108,22 @@ const LandingPage: React.FC = () => {
 	return (
 		<div className="lp-root">
 			<TopNav />
-			<main className="lp-hero">
-				<h1 className="lp-title">Hi, I'm Jinyoung Kim</h1>
-				<p className="lp-lead">I build web apps and interfaces. I focus on clean, accessible, and performant experiences.</p>
-			</main>
+				<section className="lp-introduction">
+					<div className="lp-intro-inner">
+						<p className="lp-intro-text">I'm Jinyoung Kim — a web developer building clean, accessible, and performant web apps. I explore generative AI, data-driven tools, and interactive experiences.</p>
+						<div className="social-icons">
+							<button type="button" onClick={() => window.open('https://linkedin.com/in/your-profile', '_blank')} aria-label="LinkedIn" className="social-icon">
+								<img src={LinkedinIcon} alt="LinkedIn" />
+							</button>
+							<button type="button" onClick={() => window.open('https://github.com/your-username', '_blank')} aria-label="GitHub" className="social-icon">
+								<img src={GithubIcon} alt="GitHub" />
+							</button>
+							<button type="button" onClick={() => window.open('/resume.pdf', '_blank')} aria-label="Resume" className="social-icon">
+								<img src={ResumeIcon} alt="Resume" />
+							</button>
+						</div>
+					</div>
+				</section>
 			<Slideshow slides={projectSlides} autoAdvanceInterval={5000} />
 
 			<section id="projects" className="lp-section">
@@ -121,16 +136,6 @@ const LandingPage: React.FC = () => {
 						</article>
 					))}
 				</div>
-			</section>
-
-			<section id="about" className="lp-section">
-				<h2>About</h2>
-				<p>Brief bio: .</p>
-			</section>
-
-			<section id="contact" className="lp-section">
-				<h2>Contact</h2>
-				<p>Email: kjy.jin.0823@gmail.com</p>
 			</section>
 
 			<footer className="lp-footer">© {year} Jinyoung Kim</footer>

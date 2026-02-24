@@ -1,7 +1,6 @@
 :root {
   --bg-1: #f5f5f5;
   --bg-2: #e8e8e8;
-  --accent: #3457a1;
   --muted: #666666;
   --card: rgba(0, 0, 0, 0.05);
 }
@@ -61,7 +60,6 @@ body {
 }
 
 .lp-primary {
-  background: linear-gradient(90deg, var(--accent), #4f46e5);
   box-shadow: 0 8px 22px rgba(79, 70, 229, 0.12);
 }
 
@@ -148,6 +146,7 @@ body {
   transform: translateY(-6px) scale(1.02);
   box-shadow: 0 12px 26px rgba(0,0,0,0.12);
   outline: none;
+  border-color: #1a1a1a;
 }
 
 .social-icon:focus {

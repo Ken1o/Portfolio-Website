@@ -12,6 +12,7 @@ import LinkedinIcon from '../assets/linkedin.png'
 import GithubIcon from '../assets/github.png'
 import ResumeIcon from '../assets/resume.jpg'
 import ProfilePic from '../assets/profile.svg'
+import Resume from '../assets/Resumepdf.pdf'
 
 interface LandingProject {
 	  id: number
@@ -115,13 +116,13 @@ const LandingPage: React.FC = () => {
 							<h1 className="lp-title">Hi, I'm Jinyoung Kim.</h1>
 							<p className="lp-intro-text">I'm Jinyoung Kim — a web developer building clean, accessible, and performant web apps. I explore generative AI, data-driven tools, and interactive experiences.</p>
 							<div className="social-icons">
-								<button type="button" onClick={() => window.open('https://linkedin.com/in/your-profile', '_blank')} aria-label="LinkedIn" className="social-icon">
+								<button type="button" onClick={() => window.open('https://www.linkedin.com/in/kjy0823/', '_blank')} aria-label="LinkedIn" className="social-icon">
 									<img src={LinkedinIcon} alt="LinkedIn" />
 								</button>
-								<button type="button" onClick={() => window.open('https://github.com/your-username', '_blank')} aria-label="GitHub" className="social-icon">
+								<button type="button" onClick={() => window.open('https://github.com/Ken1o', '_blank')} aria-label="GitHub" className="social-icon">
 									<img src={GithubIcon} alt="GitHub" />
 								</button>
-								<button type="button" onClick={() => window.open('/resume.pdf', '_blank')} aria-label="Resume" className="social-icon">
+								<button type="button" onClick={() => window.open(Resume, '_blank')} aria-label="Resume" className="social-icon">
 									<img src={ResumeIcon} alt="Resume" />
 								</button>
 							</div>

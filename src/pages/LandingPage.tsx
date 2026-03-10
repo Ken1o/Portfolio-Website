@@ -93,7 +93,7 @@ const LandingPage: React.FC = () => {
 		{
 			id: 5,
 			title: 'Podcast Web App',
-			description: 'Short description and key tech used.',
+			description: 'A modern podcast discovery and streaming platform with personalized recommendations, playlist management, and seamless playback controls across devices.',
 		},
 		{
 			id: 6,

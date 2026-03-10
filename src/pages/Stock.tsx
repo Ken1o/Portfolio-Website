@@ -28,7 +28,7 @@ const StockPage: React.FC = () => {
                 A web application that simulates stock and cryptocurrency trading using real market data
               </p>
               <div className="Stock-meta">
-                <span className="status">OnGoing</span>
+                <span className="status">Completed</span>
                 <span className="year">2025</span>
               </div>
             </div>

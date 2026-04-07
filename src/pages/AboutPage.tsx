@@ -9,71 +9,80 @@ const AboutPage: React.FC = () => {
       <TopNav />
       
       <main className="page-main">
-        <div className="page-container">    
-          <section className="aboutme-section">
-            <div className="aboutme-content">
-              <div className="personal-photo">
-                <img src="https://via.placeholder.com/300x400?text=Your+Photo" alt="Your photo" />
+        <div className="page-container">
+          <section className="hero-section">
+            <span className="section-label">PERSONAL INTERESTS</span>
+            <h1 className="hero-title">ABOUT ME</h1>
+            <p className="hero-subtitle">Things that interest me beyond code.</p>
+          </section>
+
+          <section className="interest-section">
+            <div className="section-number">01</div>
+            <h2 className="section-heading">HOBBIES</h2>
+            
+            <div className="interest-grid">
+              <div className="interest-category">
+                <h3>🎮 Gaming</h3>
+                <ul>
+                  <li>Competitive gaming & esports</li>
+                  <li>Strategy games</li>
+                </ul>
               </div>
-              <div className="intro-text">
-                <h3>Who I Am</h3>
-                <p> {/* add introduction */}
-                  hello
-                </p>
+              <div className="interest-category">
+                <h3>🎨 Creative</h3>
+                <ul>
+                  <li>Photography</li>
+                  <li>Pencil Drawing</li>
+                </ul>
+              </div>
+              <div className="interest-category">
+                <h3>🎵 Sports</h3>
+                <ul>
+                  <li>Football</li>
+                  <li>Badminton</li>
+                </ul>
               </div>
             </div>
           </section>
 
-          <section className="about-section">
-            <h2>My Skills</h2>
-            <div className="skills-grid">
-              <div className="skill-card">
-                <h3>💻 Frontend</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">React</span>
-                  <span className="skill-tag">TypeScript</span>
-                  <span className="skill-tag">CSS</span>
-                  <span className="skill-tag">HTML</span>
-                  <span className="skill-tag">JavaScript</span>
-                  <span className="skill-tag">Vite</span>
-                </div>
+          <section className="interest-section">
+            <div className="section-number">02</div>
+            <h2 className="section-heading">LIFESTYLE</h2>
+            
+            <div className="lifestyle-grid">
+              <div className="lifestyle-category">
+                <h3>💪 Fitness</h3>
+                <p>Regular gym sessions, hiking, and outdoor activities keep me active and energized.</p>
               </div>
-              <div className="skill-card">
-                <h3>⚙️ Backend</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">Node.js</span>
-                  <span className="skill-tag">Python</span>
-                  <span className="skill-tag">Go</span>
-                  <span className="skill-tag">PostgreSQL</span>
-                  <span className="skill-tag">Docker</span>
-                  <span className="skill-tag">REST APIs</span>
-                </div>
+              <div className="lifestyle-category">
+                <h3>☕ Daily Routine</h3>
+                <p></p>
               </div>
-              <div className="skill-card">
-                <h3>🛠️ Tools & More</h3>
-                <div className="skill-tags">
-                  <span className="skill-tag">Git</span>
-                  <span className="skill-tag">AWS</span>
-                  <span className="skill-tag">Figma</span>
-                  <span className="skill-tag">VS Code</span>
-                  <span className="skill-tag">Redis</span>
-                </div>
+              <div className="lifestyle-category">
+                <h3>🌍 Travel</h3>
+                <p>Exploring new places, experiencing different cultures, and discovering local tech communities worldwide.</p>
+              </div>
+              <div className="lifestyle-category">
+                <h3>🍕 Food</h3>
+                <p>Always up for trying new restaurants and cuisines. Food brings people together and creates memories.</p>
               </div>
             </div>
           </section>
 
-          <section className="about-section">
-            <h2>My Journey</h2>
-            <p>
-
-            </p>
-          </section>
-
-          <section className="about-section">
-            <h2>What I'm Looking For</h2>
-            <p>
-
-            </p>
+          <section className="interest-section">
+            <div className="section-number">03</div>
+            <h2 className="section-heading">EXTRACURRICULAR ACTIVITIES</h2>
+            
+            <div className="activities-grid">
+              <div className="activity-item">
+                <h3>📖 Projects</h3>
+                <p>Side projects, portfolio building, experimental applications</p>
+              </div>
+              <div className="activity-item">
+                <h3>🎓 Growth</h3>
+                <p>Certifications, workshops, continuous learning in tech</p>
+              </div>
+            </div>
           </section>
         </div>
       </main>

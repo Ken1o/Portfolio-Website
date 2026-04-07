@@ -2,7 +2,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #f5f5f5;
+  background: #ffffff;
   color: #1a1a1a;
 }
 
@@ -17,144 +17,161 @@
   width: 100%;
 }
 
-.page-container h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
-  margin-top: 0;
-  margin-bottom: 3rem;
-  color: #1a1a1a;
+.hero-section {
+  margin-bottom: 6rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #1a1a1a;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
 }
 
-.aboutme-section {
-  margin-bottom: 4rem;
-}
-
-.aboutme-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 3rem;
-  align-items: center;
-}
-
-.intro-text {
-  border-radius: 12px;
-  background-color: #edd2a4;
-}
-
-.intro-text h3 {
-  font-size: 2rem;
-  margin-top: 0;
+.section-label {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: #999999;
+  text-transform: uppercase;
   margin-bottom: 1rem;
-  margin-left: 10px;
+  font-weight: 600;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 8vw, 4rem);
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  letter-spacing: -2px;
   color: #1a1a1a;
-  justify-self: center;
+  font-family: 'Courier New', monospace;
 }
 
-.intro-text p {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #666666;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 1.5rem;
-  padding-top: 1rem;
-  border-top: 2px solid #f5f5f5;
-}
-
-.personal-photo img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  object-fit: cover;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-.about-section {
-  margin-bottom: 2.5rem;
-}
-
-.about-section h2 {
-  font-size: 1.3rem;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: #1a1a1a;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.about-section h2::before {
-  content: '';
-  width: 4px;
-  height: 4px;
-  background: #7c3aed;
-  border-radius: 50%;
-}
-
-.about-section p {
-  font-size: 0.95rem;
-  line-height: 1.7;
-  color: #666666;
-  margin-bottom: 1rem;
-}
-
-.skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.skill-card {
-  background: rgba(61, 58, 237, 0.05);
-  padding: 1.5rem;
-  border-radius: 12px;
-  border: 1px solid rgba(58, 61, 237, 0.15);
-  transition: all 0.3s ease;
-}
-
-.skill-card:hover {
-  background: rgba(58, 61, 237, 0.1);
-  border-color: rgba(70, 58, 237, 0.3);
-  transform: translateY(-2px);
-}
-
-.skill-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+.hero-subtitle {
   font-size: 1.1rem;
-  color: black;
-}
-
-.skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  margin-top: 1rem;
-}
-
-.skill-tag {
-  display: inline-block;
-  background: #3457a1;
-  color: #f5f5f5;
-  padding: 0.4rem 0.9rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  border: 1px solid rgba(58, 61, 237, 0.2);
-  transition: all 0.2s ease;
-}
-
-.skill-tag:hover {
-  background: #88a2da;
-  border-color: rgba(50, 37, 233, 0.4);
-  transform: scale(1.05);
-  color: #1a1a1a;
-}
-
-.skill-card p {
-  margin: 0;
-  font-size: 0.9rem;
   color: #666666;
+  margin: 0;
+  font-weight: 400;
+}
+
+.interest-section {
+  margin-bottom: 6rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
+}
+
+.section-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #f0f0f0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 1;
+  z-index: 0;
+}
+
+.section-heading {
+  font-size: clamp(1.5rem, 4vw, 2.2rem);
+  font-weight: 700;
+  margin: 0 0 2.5rem 0;
+  color: #1a1a1a;
+  letter-spacing: -1px;
+  position: relative;
+  z-index: 1;
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.interest-category {
+  padding: 0;
+}
+
+.interest-category h3 {
+  font-size: 1.1rem;
+  margin: 0 0 1rem 0;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.interest-category ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interest-category li {
+  font-size: 0.95rem;
+  color: #666666;
+  margin-bottom: 0.6rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.interest-category li:before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  color: #999999;
+}
+
+.lifestyle-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.lifestyle-category {
+  padding: 0;
+}
+
+.lifestyle-category h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.8rem 0;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.lifestyle-category p {
+  font-size: 0.95rem;
+  color: #666666;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.activity-item {
+  padding: 0;
+}
+
+.activity-item h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.8rem 0;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.activity-item p {
+  font-size: 0.95rem;
+  color: #666666;
+  line-height: 1.6;
+  margin: 0;
 }
 
 .page-footer {
@@ -162,32 +179,34 @@
   padding: 2rem;
   color: #999999;
   font-size: 0.9rem;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-top: 1px solid #e0e0e0;
 }
 
 @media (max-width: 768px) {
-  .page-container {
-    padding: 2rem;
-  }
-
   .page-main {
     padding: 2rem 1rem;
   }
 
-  .page-container h1 {
-    margin-bottom: 1.5rem;
+  .hero-title {
+    font-size: 2.5rem;
   }
 
-  .hero-content {
+  .section-number {
+    font-size: 2rem;
+    top: -1rem;
+    right: auto;
+  }
+
+  .interest-grid,
+  .lifestyle-grid,
+  .activities-grid {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
-  .about-section {
-    margin-bottom: 2rem;
-  }
-
-  .skills-grid {
-    grid-template-columns: 1fr;
+  .hero-section,
+  .interest-section {
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
   }
 }

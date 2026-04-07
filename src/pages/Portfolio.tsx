@@ -56,15 +56,7 @@ const PortfolioPage: React.FC = () => {
               <div className="feature-description">
                 <h3>About Page</h3>
                 <p>Learn more about me and my background. Discover my journey, skills, and what drives me to create meaningful projects.</p>
-              </div>
-              <div className="feature-description">
-                <h3>Contact Page</h3>
-                <p>Get in touch with me. Whether you have a question, want to collaborate, or just want to say hi, feel free to reach out!</p>
-              </div>
-              <div className="feature-image">
-                <img src={PortfolioImage} alt="Contact Page" />
-              </div>
-              
+              </div>              
             </div>
           </section>
         </div>
